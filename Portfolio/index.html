@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./css/animacao.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56a72a8356.js" crossorigin="anonymous"></script>
+    <style>
+      nav ul.wrapper {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      nav ul.wrapper li {
+        margin-right: 20px;
+      }
+      nav ul.wrapper li a {
+        text-decoration: none;
+        color: inherit;
+      }
+    </style>
+    <style>
+      body, html {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+      }
+      .bg-video {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          width: 110%;
+          height: 110%;
+          object-fit: cover;
+          transform: translate(-50%, -50%);
+          z-index: -1;
+      }
+      .content {
+          position: relative;
+          z-index: 1;
+          color: white;
+          text-align: center;
+          padding: 20px;
+      }
+  </style>
+  </head>
+  <video class="bg-video" autoplay muted loop>
+    <source src="img/fundo.mp4" type="video/mp4">
+</video>
+  <body>
+    <header>
+      <h1>SEJA BEM-VINDO</h1>
+      <nav>
+        <ul class="wrapper">
+          <li class="icon Whatsapp">
+            <a href="https://wa.me/5511910698150?text=Ol%C3%A1%2C+Matheus%21" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span class="tooltip">Whatsapp</span>
+            </a>
+          </li>
+          <li class="icon Instagram">
+            <a href="https://www.instagram.com/theus.rv?igshcDkyODlsMWRiMDQ5" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+              <span class="tooltip">Instagram</span>
+            </a>
+          </li>
+          <li class="icon GitHub">
+            <a href="https://github.com/Matheus5632/Projetos.git" target="_blank">
+              <i class="fa-brands fa-github"></i>
+              <span class="tooltip">GitHub</span>
+            </a>
+          </li>
+          <li class="icon Linkedin">
+            <a href="https://www.linkedin.com/in/matheus-rodrigues-243b20240/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+              <span class="tooltip">Linkedin</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-content">
+        <article class="text">
+          <h2>Sobre mim</h2>
+          <p>
+            Olá, me chamo Matheus Rodrigues Vieira, tenho 19 anos e sou de São Paulo (SP) - Brasil. 
+            Estou todos os dias em busca de novos conhecimentos sobre Ti e procurando evoluir cada vez mais.
+            Atualmente estou cursando o terceiro semestre no ensino superior de Ciência da computação na Universidade São Judas Tadeu - USJT.
+            Cursei três anos o ensino técnico na ETEC Parque da juventude.
+            Atualmente estou me especializando em Front-end, mas no futuro espero evoluir para full-stack. 
+            Gostaria muito de uma oportunidade para adquirir novas experiências para meu crescimento profissional, visando crescimento junto à empresa.
+          </p>
+        </article>
+        <aside class="techs">
+          <h2>Tecnologias</h2>
+          <div class="cards-container">
+            <div class="card">
+              <img src="./img/techs/html-logo.png" alt="Logo do HTML5">
+            </div>
+            <div class="card">
+              <img src="./img/techs/css-logo.png" alt="Logo do CSS3">
+            </div>
+            <div class="card">
+              <img src="./img/techs/js-logo.png" alt="Logo do Javascript">
+            </div>
+          </div>
+        </aside>
+      </section>
+      <figure>
+        <img src="./img/matheus.jpg" alt="Imagem de Matheus Rodrigues Vieira">
+        <figcaption>Matheus Rodrigues Vieira</figcaption>
+      </figure>
+    </main>
+    <footer>
+      <span> &copy;Matheus Rodrigues Vieira, 2024 - Todos os direitos reservados.</span>
+    </footer>
+  </body>
+</html>
